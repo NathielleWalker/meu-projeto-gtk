@@ -19,16 +19,6 @@ O sistema tem como objetivo:
 - *Avaliação dos vendedores* pelos clientes;
 - Armazenar os *produtos* de maneira estruturada.
  
-## Design
-
-![Wireframe_tela](https://github.com/user-attachments/assets/486c6b2b-bf56-4617-ba38-d5473d6f4fd4)
-
-![Design_tela](https://github.com/user-attachments/assets/0f8b1444-d296-4b96-8dcf-63eb5948904a)
-
-![Wireframe_cadastro](https://github.com/user-attachments/assets/9f723951-dd3f-4126-a108-128f6866f37e)
-
-![Design_cadastro](https://github.com/user-attachments/assets/e4b613f6-b8ce-4c0b-88f7-2527d91e8532)
-
 # Sistema de Cadastro e Login — E-commerce Brechó
 
 *Principais Entidades do sistema são:*
