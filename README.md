@@ -1,7 +1,4 @@
 # Projeto Elle's Shine
-
-#  Plataforma de E-commerce
-
 > Projeto Escolar — Plataforma web para compra e venda de roupas já usadas (brecho).
 
 ---
