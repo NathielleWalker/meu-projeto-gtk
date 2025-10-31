@@ -16,7 +16,7 @@ O sistema tem como objetivo:
 - *Avaliação dos vendedores* pelos clientes;
 - Armazenar os *produtos* de maneira estruturada.
  
-# Sistema de Cadastro e Login — E-commerce Brechó
+# Sistema de Cadastro e Login 
 
 *Principais Entidades do sistema são:*
 - Cliente
