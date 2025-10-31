@@ -43,3 +43,10 @@ INSERT INTO contem (id_pedido, id_produto, preco_unitario, quantidade, subtotal)
 INSERT INTO avaliacao_vendedor (id_cliente, id_vendedor, comentario, nota) VALUES
 (1, 1, 'Atendimento excelente! Produtos de ótima qualidade.', 5),
 (2, 2, 'Entrega rápida, recomendo.', 4);
+
+-- Inserindo um pagamento
+INSERT INTO Pagamento (id_pedido, data_pagamento, valor, forma_pagamento, status_pagamento)
+VALUES (1, '2025-10-31', 200.00, 'Pix', 'Pago');
+
+INSERT INTO Pagamento (id_pedido, data_pagamento, valor, forma_pagamento, status_pagamento)
+VALUES (2, '2025-10-30', 150.00, 'Cartão', 'Pendente');
