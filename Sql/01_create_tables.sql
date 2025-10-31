@@ -72,6 +72,15 @@ CREATE TABLE pedido (
         ON UPDATE CASCADE
 );
 
+CREATE TABLE Pagamento (
+    id_pagamento INT PRIMARY KEY AUTO_INCREMENT,
+    id_pedido INT NOT NULL,       
+    data_pagamento DATE NOT NULL,
+    valor DECIMAL(10,2) NOT NULL,
+    forma_pagamento VARCHAR(50), 
+    status_pagamento VARCHAR(20), 
+    FOREIGN KEY (id_pedido) REFERENCES Pedido(id_pedido)
+);
 
 -- Tabela de Relacionamento entre Pedido e Produto
 CREATE TABLE contem (
@@ -88,4 +97,5 @@ CREATE TABLE contem (
         ON DELETE CASCADE
         ON UPDATE CASCADE
 );
+
 
